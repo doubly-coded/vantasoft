@@ -1,0 +1,20 @@
+#card-custom {
+    transition: all .2s ease-in-out;
+    box-shadow: 3px 3px 10px gray;
+}
+
+#card-custom img {
+    padding: 15%
+}
+
+#card-custom:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #ff1755;
+}
+
+
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #ff002f !important;
+}

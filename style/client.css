@@ -1,0 +1,40 @@
+.submit-button {
+    border: 2px solid #fc0341;
+    color: #fc0341;
+    width: 40%;
+    height: 30%;
+    font-family: Inter;
+    text-align: center;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    margin-bottom: auto;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sombra{
+    text-shadow: 1px 1px 1px gray ;
+}
+
+input {
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: black;
+}
+
+.linkart {
+    font-size: small;
+}
+
+.linkart:visited{
+    color:black;
+}
+
+.linkart:link{
+    color:black;
+}
+
+.linkart:active{
+    color:black;
+}

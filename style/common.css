@@ -1,0 +1,17 @@
+body {
+    margin: 0px;
+}
+
+.vantalogo {
+    height: 10%;
+    width: 10%;
+    padding: 20px;
+    padding: 14px 16px;
+}
+
+.centralize {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

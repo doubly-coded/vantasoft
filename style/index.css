@@ -1,0 +1,144 @@
+body {
+    margin: 0px;
+}
+
+.profile {
+    background-color:#1a1a1a;
+    background-image: linear-gradient(to right, #1c1c1c,#121212);
+    height: 10%;
+    color: white;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 3%;
+}
+
+.bottom-title-text {
+    font-family: Roboto;
+    max-inline-size: 26%;
+    text-align: center;
+    margin: auto;
+}
+
+#title {
+    font-family: Inter;
+    text-align: center;
+    color: white;
+    padding-left: 1%;
+}
+
+table {
+    border: 1px solid black;
+    border-style: solid;
+    border-width: thin;
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
+#text-row {
+    padding-top: 3%;
+}
+
+#imagem {
+    height: 95%;
+    width: 95%;
+}
+
+button {
+    border: 3%;
+}
+
+#logo-box {
+    transition: all .2s ease-in-out;
+    box-shadow: 3px 3px 10px gray;
+}
+
+#logo-box:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.formulario{
+    background-color: white;
+    font-family: Inter;
+    text-align: justify;
+    margin: 2% 2% 2% 2%;
+    padding: 2% 2% 2% 2%;
+    margin: auto;
+    margin-top: 6%;
+}
+
+table.blueTable {
+    border: 1px solid #1A1A1A;
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table.blueTable td, table.blueTable th {
+    border: 2px solid #1A1A1A;
+    padding: 3px 2px;
+}
+
+table.blueTable tbody td {
+    font-size: 13px;
+}
+
+table.blueTable thead {
+    background: #1A1A1A;
+}
+
+table.blueTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+table.blueTable tfoot td {
+    font-size: 14px;
+}
+
+table.blueTable tfoot .links {
+    text-align: right;
+}
+
+
+.recruiting-video {
+    width: 80%;
+    margin-top: 6%;
+    margin-left: 12%;
+}
+
+.recruiting-video:active {
+    border: none;
+}
+
+.ancora {
+    margin-top: 3%;
+}
+
+.ancora:visited {
+    color: white;
+    
+}
+
+.ancora:link {
+    color: white;
+}
+
+.ancora:active {
+    color: white;  
+}
+
+.flexcontainer {
+	margin: auto;
+    align-self: center;
+}
+
+.flexitem {
+	flex: 1;
+	margin-top: 6%;
+    margin-left: 12%;
+	padding: 0 auto;
+	text-align: center;
+}
