@@ -57,6 +57,19 @@ button {
     cursor: pointer;
 }
 
+<<<<<<< HEAD
+=======
+.formulario{
+    background-color: white;
+    font-family: Inter;
+    text-align: justify;
+    margin: 2% 2% 2% 2%;
+    padding: 2% 2% 2% 2%;
+    margin: auto;
+    margin-top: 6%;
+}
+
+>>>>>>> 397471e5895acbee45e4c7f502de07a41b4938a5
 table.blueTable {
     border: 1px solid #1A1A1A;
     width: 80%;

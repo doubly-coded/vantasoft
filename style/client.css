@@ -13,6 +13,7 @@
     justify-content: space-between;
 }
 
+<<<<<<< HEAD
 .formulario{
     background-color: white;
     font-family: Inter;
@@ -24,6 +25,8 @@
     margin-top: 12%;
 }
 
+=======
+>>>>>>> 397471e5895acbee45e4c7f502de07a41b4938a5
 .sombra{
     text-shadow: 1px 1px 1px gray ;
 }
@@ -39,6 +42,7 @@ input {
 }
 
 .linkart:visited{
+<<<<<<< HEAD
     color:rgb(255, 0, 43);
 }
 
@@ -48,4 +52,15 @@ input {
 
 .linkart:active{
     color:rgb(255, 0, 43);
+=======
+    color:black;
+}
+
+.linkart:link{
+    color:black;
+}
+
+.linkart:active{
+    color:black;
+>>>>>>> 397471e5895acbee45e4c7f502de07a41b4938a5
 }
