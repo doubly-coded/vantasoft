@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="resources/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/animation.css">
+    <link href="grid/simple-grid.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/index.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="style/compras.css" type="text/css" media="screen"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <title>Vantasoft - Adquirir Planos</title>
+
+    <style>
+        
+        @media (max-width: 600px) {
+          #logos .row {
+            height: 40%;
+            width: 40%;
+            margin-left: auto;
+            margin-right: auto;
+          }
+
+          #logos .row div {
+            margin: 20%;
+          }
+
+          .bottom-title-text {
+            max-inline-size: 70%;
+          }
+        }
+
+        @media (max-width: 768px) {
+            .container .row {
+                height: 30%;
+                width: 70%;
+
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .bottom-title-text {
+                max-inline-size: 60%;
+            }
+        }
+    </style>
+    </head>
+
+    <body>
+        <nav id="top-navbar" class="navbar navbar-expand-lg">
+            <img src="resources/vantasoft.png" width="8%" height="8%" class="d-inline-block align-top" alt="">
+            
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li style="text-align: left" class="nav-item active">
+                        <a style="color: #fc0341" class="nav-link" href="index.html">Home</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li style="text-align: right; margin-left: 1000%;" class="nav-item active">
+                        <a style="color: #fc0341" class="nav-link" href="cliente.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="jumbotron jumbotron-fluid" style="background-color: #1a1a1a">
+
+          <h1 class="display-4" style="color: white; text-align: center; font-family: Inter;" >Adquira seu Plano</h1>
+          <p class="lead" style="color: white; text-align: center; font-family: Roboto;"> Aqui você pode garantir os seus produtos Vantasoft!</p>
+
+        </div>
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Accordion Item #1
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Accordion Item #2
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+            </div>
+          </div>
+        </div>
+
+    <div class="container" style="margin-top: 10%; padding-bottom: 10%;">
+        <div class="row">
+            <div id="card-custom" class="card col-md-3 col-sm-12 offset-md-1">
+                <img class="card-img-top" src="resources/cubo.png" alt="Card image cap">
+                <h5 style="text-align: center;" class="card-title">Plano Essentials</h5>
+                <div class="card-body">
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur, est a viverra pellentesque, elit ante ultricies diam, egestas posuere nulla odio vel magna.</p>
+                    <a style="margin: auto;" href="#" class="btn btn-primary">Contratar</a>
+                </div>
+            </div>
+            <div id="card-custom" class="card col-md-3 col-sm-12 offset-md-1">
+                <img class="card-img-top" src="resources/estrelinha.png" alt="Card image cap">
+                <h5 style="text-align: center;" class="card-title">Plano Premium</h5>
+                <div class="card-body">
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur, est a viverra pellentesque, elit ante ultricies diam, egestas posuere nulla odio vel magna.</p>
+                    <a style="margin: auto;" href="#" class="btn btn-primary">Contratar</a>
+                    <button class="btn"></button>
+                </div>
+            </div>
+            <div id="card-custom" class="card col-md-3 col-sm-12 offset-md-1">
+                <img class="card-img-top" src="resources/diamante.png" alt="Card image cap">
+                <h5 style="text-align: center;" class="card-title">Plano Business</h5>
+                <div class="card-body">
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur, est a viverra pellentesque, elit ante ultricies diam, egestas posuere nulla odio vel magna.</p>
+                    <a style="margin: auto;" href="#" class="btn btn-primary">Contratar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    </body>
+
+</html>

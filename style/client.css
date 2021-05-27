@@ -1,0 +1,51 @@
+.submit-button {
+    border: 2px solid #fc0341;
+    color: #fc0341;
+    width: 40%;
+    height: 30%;
+    font-family: Inter;
+    text-align: center;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    margin-bottom: auto;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario{
+    background-color: white;
+    font-family: Inter;
+    text-align: justify;
+    border-radius: 2%;
+    margin: 2% 2% 2% 2%;
+    padding: 2% 2% 2% 2%;
+    margin: auto;
+    margin-top: 12%;
+}
+
+.sombra{
+    text-shadow: 1px 1px 1px gray ;
+}
+
+input {
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: black;
+}
+
+.linkart {
+    font-size: small;
+}
+
+.linkart:visited{
+    color:rgb(255, 0, 43);
+}
+
+.linkart:link{
+    color:rgb(255, 0, 43);
+}
+
+.linkart:active{
+    color:rgb(255, 0, 43);
+}
