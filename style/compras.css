@@ -4,13 +4,13 @@
 }
 
 #card-custom img {
-    padding: 15%
+    padding: 30%
 }
 
 #card-custom:hover {
     transform: scale(1.1);
     cursor: pointer;
-    box-shadow: 5px 5px 10px #ff1755;
+    box-shadow: 5px 5px 10px #ff9cac;
 }
 
 

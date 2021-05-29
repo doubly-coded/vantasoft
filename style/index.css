@@ -3,13 +3,13 @@ body {
 }
 
 .profile {
-    background-color:#1a1a1a;
+    padding-bottom: 5%;
     background-image: linear-gradient(to right, #1c1c1c,#121212);
     height: 10%;
     color: white;
     text-align: center;
-    padding-bottom: 5%;
-    padding-top: 3%;
+    position: relative;
+    padding-top: 5%;
 }
 
 .bottom-title-text {
@@ -17,6 +17,11 @@ body {
     max-inline-size: 26%;
     text-align: center;
     margin: auto;
+}
+
+#backgroundimg {
+    height: 100%;
+    width: 100%;
 }
 
 #title {
@@ -57,19 +62,6 @@ button {
     cursor: pointer;
 }
 
-<<<<<<< HEAD
-=======
-.formulario{
-    background-color: white;
-    font-family: Inter;
-    text-align: justify;
-    margin: 2% 2% 2% 2%;
-    padding: 2% 2% 2% 2%;
-    margin: auto;
-    margin-top: 6%;
-}
-
->>>>>>> 397471e5895acbee45e4c7f502de07a41b4938a5
 table.blueTable {
     border: 1px solid #1A1A1A;
     width: 80%;
