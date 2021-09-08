@@ -20,7 +20,7 @@
     <title>Vantasoft - Softwares Inteligentes</title>
     <style>
         body {
-            background-image: linear-gradient(to right, #7d87fa, #e863ff);
+            background-image: linear-gradient(to right, #ff91af, #e863ff);
         }
 
         @media print {
@@ -82,22 +82,24 @@
     <div id="text-row" class="container align-self-center">
         <div class="row">
             <div class="formulario">
-                <h3 class="sombra"> Login</h3>
+                <div style="font-size: x-large; padding-bottom: 10%;">
+                    <span>Faça login ou </span><span><a href="">registre-se</a></span>
+                </div>
                 <form>
-                    <br>
-                    <p>Endereço de Email</p>
-                    <input type="text" name="email" placeholder="Insira seu email" size="30" required>
-                    <br>
-                    <br>
-                    <p>Senha</p>
-                    <input type="password" name="password" placeholder="Insira sua senha" size="30" required>
-                    <br><br>
-                    <button class="submit-button">Conectar-se</button>
-                    <br>
-                    <a href="https://www.freepik.es/vectorjuice" class="linkart">Créditos das imagens para:
-                        vectorjuice</a>
-
-                </form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">E-mail</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Senha</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Mantenha-me logado</label>
+                    </div>
+                    <button style="margin-top: 5%;" type="submit" class="btn btn-danger">Login</button>
+                  </form>
             </div>
         </div>
     </div>
